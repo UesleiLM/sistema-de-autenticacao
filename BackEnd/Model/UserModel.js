@@ -1,5 +1,9 @@
 const db = require('../config/database');
 
+// olhando a alteração
+
+// exemplo para frança
+
 class UserModel {
     async createUser({ nome, idade, email, senha }) {
         const [result] = await db.query(
